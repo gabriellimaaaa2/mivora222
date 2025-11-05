@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="MIVORA DIGITAL - Transformamos ideias em experiências digitais extraordinárias">
+    <meta name="theme-color" content="#000000">
+    <title>MIVORA DIGITAL - Sua Marca na Próxima Dimensão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <div class="nav-logo">
+            <span class="logo-text">MIVORA</span>
+            <span class="logo-accent">DIGITAL</span>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Full Screen Menu -->
+    <div class="fullscreen-menu" id="fullscreenMenu">
+        <div class="menu-content">
+            <a href="#home" class="menu-item" data-index="01">Início</a>
+            <a href="#sobre" class="menu-item" data-index="02">Sobre</a>
+            <a href="#planos" class="menu-item" data-index="03">Planos</a>
+            <a href="#consultoria" class="menu-item" data-index="04">Consultoria</a>
+            <a href="#contato" class="menu-item" data-index="05">Contato</a>
+        </div>
+        <div class="menu-footer">
+            <p>Transformando ideias em realidade digital</p>
+        </div>
+    </div>
+
+    <!-- Hero Section - Full Screen -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <img src="assets/BANNER 4 MIVORA.jpg" alt="MIVORA Digital Banner" class="hero-image">
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Role para descobrir</span>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="intro-section">
+        <div class="intro-content">
+            <div class="intro-badge">
+                <span class="badge-pulse"></span>
+                Agência Digital Premium
+            </div>
+            <h1 class="intro-title">
+                <span class="title-line">Sua Marca</span>
+                <span class="title-line accent">na Próxima</span>
+                <span class="title-line">Dimensão</span>
+            </h1>
+            <p class="intro-subtitle">Criamos experiências digitais que transformam visitantes em clientes apaixonados</p>
+            <button class="cta-button" onclick="scrollToSection('planos')">
+                <span>Explorar Planos</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre-section">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">Por que escolher a MIVORA?</h2>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="feature-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path d="M24 4L6 14V34L24 44L42 34V14L24 4Z" stroke="url(#gradient1)" stroke-width="2"/>
+                        <defs>
+                            <linearGradient id="gradient1" x1="6" y1="4" x2="42" y2="44">
+                                <stop offset="0%" stop-color="#FF0080"/>
+                                <stop offset="100%" stop-color="#7928CA"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Tecnologia de Ponta</h3>
+                <p class="feature-description">Utilizamos as mais recentes tecnologias para garantir velocidade, segurança e performance incomparáveis.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="18" stroke="url(#gradient2)" stroke-width="2"/>
+                        <path d="M24 10V24L32 32" stroke="url(#gradient2)" stroke-width="2" stroke-linecap="round"/>
+                        <defs>
+                            <linearGradient id="gradient2" x1="6" y1="6" x2="42" y2="42">
+                                <stop offset="0%" stop-color="#00DFD8"/>
+                                <stop offset="100%" stop-color="#007CF0"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Design Estratégico</h3>
+                <p class="feature-description">Cada pixel é pensado para converter visitantes em clientes fiéis e engajados.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path d="M8 24L24 8L40 24M12 20V40H36V20" stroke="url(#gradient3)" stroke-width="2" stroke-linecap="round"/>
+                        <defs>
+                            <linearGradient id="gradient3" x1="8" y1="8" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#FFDD00"/>
+                                <stop offset="100%" stop-color="#FF6B00"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Escalabilidade Total</h3>
+                <p class="feature-description">Seu site cresce junto com seu negócio, sem limites para sua ambição.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planos Section -->
+    <section id="planos" class="planos-section">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">Planos que cabem no seu bolso</h2>
+            <p class="section-subtitle">Escolha o plano ideal para transformar sua presença digital</p>
+        </div>
+
+        <div class="planos-carousel">
+            <div class="plano-card" data-plan="basico">
+                <div class="plano-header">
+                    <h3 class="plano-nome">Básico</h3>
+                    <div class="plano-preco">
+                        <span class="preco-valor">R$ 1.200</span>
+                        <span class="preco-periodo">pagamento único</span>
+                    </div>
+                </div>
+                <p class="plano-descricao">Perfeito para quem está começando e quer uma presença digital profissional</p>
+                <ul class="plano-features">
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Site responsivo e moderno
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Até 5 páginas profissionais
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Formulário de contato
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        SSL e segurança incluídos
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Suporte por 30 dias
+                    </li>
+                </ul>
+                <button class="plano-button" onclick="selecionarPlano('Plano Básico', 1200)">
+                    Escolher Plano
+                </button>
+            </div>
+
+            <div class="plano-card featured" data-plan="premium">
+                <div class="plano-badge">MAIS POPULAR</div>
+                <div class="plano-header">
+                    <h3 class="plano-nome">Premium</h3>
+                    <div class="plano-preco">
+                        <span class="preco-valor">R$ 2.500</span>
+                        <span class="preco-periodo">pagamento único</span>
+                    </div>
+                </div>
+                <p class="plano-descricao">O melhor custo-benefício com recursos avançados e animações modernas</p>
+                <ul class="plano-features">
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Tudo do plano Básico
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Até 15 páginas
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Animações modernas
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Painel administrativo (CMS)
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        SEO otimizado
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Suporte prioritário 90 dias
+                    </li>
+                </ul>
+                <button class="plano-button" onclick="selecionarPlano('Plano Premium', 2500)">
+                    Escolher Plano
+                </button>
+            </div>
+
+            <div class="plano-card" data-plan="enterprise">
+                <div class="plano-header">
+                    <h3 class="plano-nome">Enterprise</h3>
+                    <div class="plano-preco">
+                        <span class="preco-valor">Sob Consulta</span>
+                        <span class="preco-periodo">personalizado</span>
+                    </div>
+                </div>
+                <p class="plano-descricao">Solução 100% customizada para grandes projetos e necessidades específicas</p>
+                <ul class="plano-features">
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Tudo do plano Premium
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Páginas ilimitadas
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Sistema totalmente customizado
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Integrações avançadas
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10L8 14L16 6" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Suporte VIP 24/7
+                    </li>
+                </ul>
+                <button class="plano-button" onclick="selecionarPlano('Plano Enterprise', 0)">
+                    Solicitar Proposta
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultoria Section -->
+    <section id="consultoria" class="consultoria-section">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">Consultoria Gratuita</h2>
+            <p class="section-subtitle">Responda 5 perguntas e descubra o plano ideal para você</p>
+        </div>
+
+        <div class="consultoria-container">
+            <div class="consultoria-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="progress-text" id="progressText">Pergunta 1 de 5</span>
+            </div>
+
+            <div class="chat-area" id="chatArea">
+                <!-- Mensagens serão inseridas aqui -->
+            </div>
+
+            <div class="input-area" id="inputArea">
+                <input type="text" id="chatInput" placeholder="Digite sua resposta..." class="chat-input">
+                <button class="send-button" id="sendButton">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="options-area" id="optionsArea"></div>
+
+            <div class="result-area" id="resultArea">
+                <div class="result-icon">🎯</div>
+                <h3 class="result-title">Plano Recomendado</h3>
+                <div class="result-card">
+                    <h4 id="resultPlan"></h4>
+                    <div class="result-price" id="resultPrice"></div>
+                    <p id="resultDescription"></p>
+                    <ul id="resultFeatures"></ul>
+                </div>
+                <button class="result-button" id="resultButton">Escolher Este Plano</button>
+                <button class="restart-button" onclick="reiniciarConsultoria()">Refazer Consultoria</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item" data-aos="fade-up">
+                <div class="stat-number" data-target="100">0</div>
+                <div class="stat-label">Projetos Entregues</div>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-number" data-target="98">0</div>
+                <div class="stat-label">% de Satisfação</div>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-number" data-target="24">0</div>
+                <div class="stat-label">Horas de Suporte</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato-section">
+        <div class="section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">Vamos conversar?</h2>
+            <p class="section-subtitle">Entre em contato e transforme sua ideia em realidade</p>
+        </div>
+
+        <div class="contato-grid">
+            <a href="https://wa.me/5511999999999" class="contato-card whatsapp" target="_blank">
+                <div class="contato-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 2C8.268 2 2 8.268 2 16C2 18.52 2.684 20.88 3.864 22.916L2.116 28.884L8.252 27.164C10.22 28.244 12.516 28.884 14.964 28.884C22.696 28.884 28.964 22.616 28.964 14.884C28.964 7.152 22.732 2 16 2Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>WhatsApp</h3>
+                <p>+55 11 99999-9999</p>
+            </a>
+
+            <a href="mailto:contato@mivora.com" class="contato-card email">
+                <div class="contato-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M4 8L16 18L28 8M4 24H28V8H4V24Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>E-mail</h3>
+                <p>contato@mivora.com</p>
+            </a>
+
+            <a href="https://instagram.com/mivoradigital" class="contato-card instagram" target="_blank">
+                <div class="contato-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect x="4" y="4" width="24" height="24" rx="6" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="16" cy="16" r="5" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="23" cy="9" r="1" fill="currentColor"/>
+                    </svg>
+                </div>
+                <h3>Instagram</h3>
+                <p>@mivoradigital</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">MIVORA</span>
+                <span class="logo-accent">DIGITAL</span>
+            </div>
+            <p class="footer-tagline">Transformando ideias em experiências digitais extraordinárias</p>
+            <div class="footer-links">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#planos">Planos</a>
+                <a href="#consultoria">Consultoria</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MIVORA DIGITAL. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
