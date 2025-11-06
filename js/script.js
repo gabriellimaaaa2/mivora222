@@ -134,8 +134,8 @@ const perguntas = [
         tipo: 'opcoes',
         pergunta: 'Entendi! Qual o prazo ideal para ter o site pronto?',
         opcoes: [
-            '⚡ Urgente (15-30 dias)',
-            '📅 Normal (30-60 dias)',
+            '⚡ Urgente (3-7dias)',
+            '📅 Normal (20-30 dias)',
             '🕐 Sem pressa (mais de 60 dias)'
         ]
     },
